@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,600&display=swap');
+
+.movieCard{
+    margin-bottom: 30px;
+}
+.movieCard h2 {
+    font-family: 'Source Serif Pro', serif;
+    color: #eff3f5;
+    font-size: 30px;
+    margin: 0px 0px 0px 45px;
+}
+.movieCard--listarea {
+    overflow-x: hidden;
+    padding-left: 30px;
+}
+.movieCard--list{
+ 
+    transition: all ease 0.5s;
+
+}
+
+.movieCard--item{
+    display: inline-block;
+    width: 250px;
+    cursor: pointer;
+}
+
+.movieCard--item img{
+    box-shadow: 0px 1px 10px 1px #0c98f5;
+    width: 100%;
+    transform: scale(0.9);
+    transition: all ease 0.2s;
+    
+}
+
+.movieCard--item img:hover{
+    transform: scale(1);
+}
+.movieCard--left,
+.movieCard--right{
+    position: absolute;
+    width: 40px;
+    height: 380px;
+    color: #eff3f5;
+    background-color:rgba(0,0,0, 0.6) ;
+    z-index: 99;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+.movieCard--left{
+    left: 0;
+}
+.movieCard--right{
+    right: 0;
+}
+.movieCard:hover .movieCard--left,
+.movieCard:hover .movieCard--right{
+    opacity: 1;
+}
+@media (max-width:760px) {
+    .movieCard--left,
+    .movieCard--right{
+        opacity: 1;
+    }
+    
+}

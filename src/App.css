@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,600&display=swap');
+*{
+  
+  box-sizing: border-box;
+}
+body {
+  background-color: #111;
+  color: #fff;
+  margin: 0;
+  font-family: 'Source Serif Pro', serif;
+}
