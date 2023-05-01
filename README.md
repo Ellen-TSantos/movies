@@ -1,8 +1,8 @@
 # movies
 
 <h2> Welcome to my repository.
-<h2> This project was developed with React where a list of movies is rendered, plus a details page,
-dotenv was installed to use environment variables and react-icons for icons, using the "Tmdb API".
+<h2>This project was developed with React where a list of movies is rendered, in addition to a details page.
+Installed dotenv to use environment variables and react-icons for icons, consuming the "Tmdb API"
 <h2> To use this project it is necessary to install  it in the dependencies.
 <h2> node_modules.
 <h2> npm install.
