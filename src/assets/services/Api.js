@@ -32,9 +32,9 @@ export default {
       },
      
       {
-        name: "Horror",
-        title: "Terror",
-        items: await basisFech(`/discover/movie?api_key=${api_key}&with_genres=27&${language}`),
+        name: "Action",
+        title: "Ação",
+        items: await basisFech(`/discover/movie?api_key=${api_key}&with_genres=12&${language}`),
       },
       {
         slug: "War",
