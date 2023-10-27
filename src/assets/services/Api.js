@@ -10,7 +10,7 @@ const basisFech = async (endpoint) => {
     }
 
     const json = await req.json();
-    console.log(json); // Adicione este log para verificar a resposta da API
+    console.log(json);
 
     return json;
   } catch (error) {
